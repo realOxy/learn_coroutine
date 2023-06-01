@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f66d800-cfed-470b-9080-286a24fa52bd" name="Changes" comment="add docs">
+    <list default="true" id="4f66d800-cfed-470b-9080-286a24fa52bd" name="Changes" comment="add discussion 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LaunchCoroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LaunchCoroutine.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685261046143</updated>
       <workItem from="1685261047500" duration="3136000" />
-      <workItem from="1685340955888" duration="1362000" />
+      <workItem from="1685340955888" duration="2859000" />
     </task>
     <task id="LOCAL-00001" summary="LaunchCoroutine">
       <created>1685341740823</created>
@@ -99,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685341987107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add discussion 1">
+      <created>1685342543815</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685342543815</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add discussion 1">
+      <created>1685342594962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685342594962</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LaunchCoroutine" />
     <MESSAGE value="add docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docs" />
+    <MESSAGE value="add discussion 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add discussion 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
