@@ -1,4 +1,5 @@
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import kotlin.coroutines.Continuation
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext
@@ -17,7 +18,7 @@ class ProducerScope(initial: Int = 0) {
     private var _value: Int = initial
     fun peek(): Int = _value
     // runBlocking cannot be removed.
-    suspend fun plus(value: Int) {
+    suspend fun plus(value: Int) = runBlocking {
         _value += value
         delay(1000L)
     }
