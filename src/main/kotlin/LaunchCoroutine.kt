@@ -17,7 +17,7 @@ fun main() {
 class ProducerScope(initial: Int = 0) {
     var value: Int = initial
         private set
-    // runBlocking cannot be removed.
+    // Why runBlocking cannot be removed?
     suspend fun plus(value: Int) = runBlocking {
         this@ProducerScope.value += value
         delay(1000L)
