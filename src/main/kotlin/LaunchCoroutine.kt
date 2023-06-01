@@ -7,19 +7,19 @@ import kotlin.coroutines.startCoroutine
 
 fun main() {
     launchCoroutine(ProducerScope()) {
-        while (peek() < 10) {
-            println(peek())
-            plus(peek().coerceAtLeast(1))
+        while (value < 10) {
+            println(value)
+            plus(value.coerceAtLeast(1))
         }
     }
 }
 
 class ProducerScope(initial: Int = 0) {
-    private var _value: Int = initial
-    fun peek(): Int = _value
+    var value: Int = initial
+        private set
     // runBlocking cannot be removed.
     suspend fun plus(value: Int) = runBlocking {
-        _value += value
+        this@ProducerScope.value += value
         delay(1000L)
     }
 }
