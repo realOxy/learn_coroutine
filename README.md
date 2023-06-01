@@ -12,4 +12,4 @@
 
 ## Ask your Question?
 
-Fork this repository make files then pull request.
+Make an issue.
